@@ -1,0 +1,69 @@
+.addMarks input[type="text"] {
+    border: 1px solid #ffcccc;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+
+.addMarks input[type="text"]:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+.addMarks button{
+    background-color: #0056b3;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.addMarks button:hover{
+    cursor: pointer;
+}
+.addMarks button:active{
+    border: 1px solid #043b75;
+    background-color: #ffcccb;
+    color: black;
+}
+
+.displayMarks{
+    border: 1px solid #ff9999;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.displayMarks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.displayMarks th {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+}
+
+.displayMarks td {
+    border: 1px solid #ff9999;
+    padding: 8px;
+    text-align: center;
+}
+
+.displayMarks tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.displayMarks tr:hover {
+    background-color: #e0e0e0;
+}
